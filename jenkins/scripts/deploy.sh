@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 set -x
-docker run -u 0 -d -p 80:80 --name my-apache-php-app -v 'C:\Users\James\Desktop\Test\php-selenium-test':/var/www/html php:7.2-apache
+docker run -u 0 -d -p 80:80 --name my-apache-php-app -v 'C:\Users\T3hCa\OneDrive\Desktop\php-selenium-test':/var/www/html php:7.2-apache
 sleep 1
 set +x
 
